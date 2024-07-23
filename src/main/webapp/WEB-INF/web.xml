@@ -1,0 +1,116 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+
+<web-app>
+
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  	<servlet-name>GetServlet</servlet-name>
+  	<display-name>GetServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Servlet.GetServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Search</servlet-name>
+  	<display-name>Search</display-name>
+  	<description></description>
+  	<servlet-class>com.ServletPackage.Search</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserChoice</servlet-name>
+  	<display-name>UserChoice</display-name>
+  	<description></description>
+  	<servlet-class>com.Servlet.UserAllDetails.UserChoice</servlet-class>
+  </servlet>
+ 
+  <servlet>
+  	<servlet-name>PaginationServlet1</servlet-name>
+  	<display-name>PaginationServlet1</display-name>
+  	<description></description>
+  	<servlet-class>PaginationServlet.PaginationServlet1</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PaginationServlet2</servlet-name>
+  	<display-name>PaginationServlet2</display-name>
+  	<description></description>
+  	<servlet-class>PaginationServlet.PaginationServlet2</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Download</servlet-name>
+  	<display-name>Download</display-name>
+  	<description></description>
+  	<servlet-class>PaginationServlet.Download</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PaginationServlet</servlet-name>
+  	<display-name>PaginationServlet</display-name>
+  	<description></description>
+  	<servlet-class>PaginationServlet.PaginationServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Demo</servlet-name>
+  	<display-name>Demo</display-name>
+  	<description></description>
+  	<servlet-class>com.Demo1.Demo</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DemoDownload</servlet-name>
+  	<display-name>DemoDownload</display-name>
+  	<description></description>
+  	<servlet-class>com.Demo1.DemoDownload</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Demo2</servlet-name>
+  	<display-name>Demo2</display-name>
+  	<description></description>
+  	<servlet-class>com.ServletFirstProgram.Demo2</servlet-class>
+  </servlet>
+        
+  <servlet-mapping>
+  	<servlet-name>GetServlet</servlet-name>
+  	<url-pattern>/GetServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Search</servlet-name>
+  	<url-pattern>/Search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserChoice</servlet-name>
+  	<url-pattern>/UserChoice</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>PaginationServlet1</servlet-name>
+  	<url-pattern>/ps</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PaginationServlet2</servlet-name>
+  	<url-pattern>/PaginationServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Download</servlet-name>
+  	<url-pattern>/Download</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PaginationServlet</servlet-name>
+  	<url-pattern>/PaginationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Demo</servlet-name>
+  	<url-pattern>/Demo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DemoDownload</servlet-name>
+  	<url-pattern>/DemoDownload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Demo2</servlet-name>
+  	<url-pattern>/Demo2</url-pattern>
+  </servlet-mapping>
+  
+   
+</web-app>
+
